@@ -1,0 +1,20 @@
+id
+nama kota / wisata
+makanan khas
+tempat wisata populer
+
+Bali
+mk : sate lilit Bali
+sp: Pantai Kuta
+
+Bandung
+mk: Seblak
+sp : Farmhouse Lembang
+
+Jogja
+sp: Candi Borobudur
+mk: Gudeg
+
+Surabaya
+mk : Tahu Telor
+sp : Taman Bungkul

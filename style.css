@@ -1,0 +1,309 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #424242;
+}
+
+
+/*Index.php*/
+
+header .judul {
+    padding: 1.5rem;
+    background-color: #ffffff;
+    color: inherit;
+    -webkit-box-shadow: 1px 4px 11px 0px rgba(56,56,56,0.09);
+    -moz-box-shadow: 1px 4px 11px 0px rgba(56,56,56,0.09);
+    box-shadow: 1px 4px 11px 0px rgba(56,56,56,0.09);
+    /* margin-bottom: 2rem; */
+
+}
+
+header .judul h2 {
+    letter-spacing: 1px;
+}
+
+
+header .hero {
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+    min-height: 450px;
+    max-width: 100%;
+    text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .hero .hero-title {
+    line-height: 50px;
+    width: 60%;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: white;
+}
+
+main {
+    text-align: center;
+    padding: 2rem;
+}
+
+main .menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+main .menu ul li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+main .menu ul li a {
+    display: block;
+    border: 1px solid #1b6ca8;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: inherit;
+    font-weight: 600;
+}
+
+main .menu ul li a.active {
+    background-color: #1b6ca8;
+    color: #ffffff;
+}
+
+main .menu ul li a.secondary {
+    font-weight: 200;
+    color: inherit;
+}
+
+footer {
+    margin-top: 4rem;
+    background-color: rgb(194, 194, 194);
+    color: rgb(65, 65, 65);
+    font-size: 1.2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+/*ENd Index.php*/
+
+
+
+/*Tambah Data.php*/
+
+
+header.title h3{
+    padding: 1.5rem;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+header.create h3 {
+    color: inherit;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+
+.form-tambah {
+    padding: 2rem 2rem;
+    margin: 0 1.5rem;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    background-color: #fcfcfc;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 4px 16px 0px rgba(107,107,107,0.16);
+    
+}
+
+
+.form-tambah .field {
+    margin-bottom: 1.2rem;
+}
+
+.form-tambah .field label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+}
+
+.form-tambah .field input {
+    padding: 10px 12px;
+    width: 100%;
+    height: 42px;
+    font-size: 15px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+}
+
+.form-tambah .field input:focus {
+    outline: none;
+    border: 2px solid #1b6ba8a1;
+}
+
+.form-tambah .cta {
+    margin-top: 2rem;
+}
+
+.form-tambah .cta input[type="submit"] {
+    border: 1px solid #1b6ca8;
+    background-color: #1b6ca8;
+    font-size: 18px;
+    padding: 8px 16px;
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*end of tambah-wisata.php*/
+
+
+
+
+/*update-wisata.php*/
+
+.title h2 {
+    padding: 1.5rem;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.form-update {
+    padding: 2rem 2rem;
+    margin: 0 1.5rem;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    background-color: #fcfcfc;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 4px 16px 0px rgba(107,107,107,0.16);  
+}
+
+
+.form-update .field {
+    margin-bottom: 1.2rem;
+}
+
+.form-update .field label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+}
+
+.form-update .field input {
+    padding: 10px 12px;
+    width: 100%;
+    height: 42px;
+    font-size: 15px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+}
+
+.form-update .field input:focus {
+    outline: none;
+    border: 2px solid #1b6ba8a1;
+}
+
+.form-update .field.hide{
+    display: none;
+}
+
+.form-update .cta {
+    margin-top: 2rem;
+}
+
+.form-update .cta input[type="submit"] {
+    border: 1px solid #1b6ca8;
+    background-color: #1b6ca8;
+    font-size: 18px;
+    padding: 8px 16px;
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*End of update-wisata.php*/
+
+
+
+/*lihat-data.php*/
+
+.home {
+    width: 33%;
+    display: flex;
+}
+
+.home a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 5px;
+    transition: all 500ms ease;
+    border: 1px solid #1b6ca8;
+    margin-right: 5px;
+}
+
+.home a:hover {
+    background-color: #1b6ca8;
+    color: white;
+    transition: all 500ms ease;
+}
+
+.data-wisata table {
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 50%;
+}
+
+.data-wisata table thead th {
+    font-size: 18px;
+}
+
+.data-wisata table thead th,
+.data-wisata table tbody td {
+    padding: 15px 10px;
+}
+
+
+.data-wisata table thead tr {
+    border-bottom: 1px solid #1b6ca8;
+}
+
+.data-wisata table tbody tr {
+    border-bottom: 1px solid #16588bb0;
+}
+
+p.total {
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+/*end lihat-data.php*/
+
+
+
+

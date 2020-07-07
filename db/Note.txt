@@ -1,0 +1,16 @@
+Silahkan Import Db ke phpmyadmin
+
+
+========================
+
+atau mau buat db sendiri? berikut field" yang di butuhkan
+
+nama DB: wisataindo
+ada 1 table dgn nama : wisata
+terdapat 4 field:
+- id	bigInt 255 (pk) auto increment
+- nama_kota	varchar 255
+- makanan_khas	varchar 255
+- spot_wisata	varchar 255
+
+Jika sudah semua, let's roll
